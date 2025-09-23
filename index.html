@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Допомога наркозалежним підліткам | Психологічна підтримка</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stile.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.9/css/intlTelInput.css">
+        <!-- Иконки -->
+    <link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="icons/favicon-16x16.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="icons/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="icons/favicon-48x48.png" type="image/png" sizes="48x48">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="icons/site.webmanifest">
+
+    <!-- Підключення Flatpickr та його локалізації -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1083831223935542');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1083831223935542&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <p class="navbar-brand">Павло <span>Казар'ян</span></p>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Головна</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Про мене</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#process">Про консультацію</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacts">Контакти</a></li>
+                    <li class="nav-item"><a class="nav-link" href="quiz.html">Тест для батьків</a></li>
+                </ul>
+        </div>
+    </nav>
+
+    <!-- Герой-секция -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col-lg-7 order-1 order-lg-1">
+                    <h1 class="mb-4">Безкоштовна консультація для батьків та родичів наркозалежних </h1>
+                    <ul class="list-unstyled mb-5">
+                        <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Дамо конкретні рекомендації, як діяти саме у вашій ситуації</li>
+                        <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Допоможемо зрозуміти причини та механізми залежності</li>
+                        <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Пояснимо, як правильно спілкуватися з близьким, щоб не погіршити ситуацію</li>
+                        <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Розкажемо, які кроки можна зробити вже сьогодні</li>
+                        <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Підкажемо, як уникнути типових помилок родичів</li>
+                        <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Запропонуємо перевірені стратегії підтримки без співзалежності</li>
+                        <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Допоможемо визначити, чи потрібна реабілітація, та як її організувати</li>
+                        <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Відповімо на ваші питання без осуду та з повною конфіденційністю</li>
+                        <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i><strong>Ваш шанс змінити ситуацію починається тут. Тисніть «Замовити дзвінок»!</strong></li>
+                    </ul>
+
+                    <h2 class="h5 mb-0 text-center multiline-text">Якщо ви думаєте, що ваша ситуація унікальна - ви помиляєтеся.<br>За роки моєї практики я чув сотні історій і вони дивовижно схожі.<br> А це означає, що є система, яка тримає вас у цій пастці і її можна розібрати, зрозуміти і перестати грати за її правилами.</h2>                </div>
+                <div class="col-lg-5 order-2 order-lg-2 mt-4 mt-lg-0">
+    <div id="callFormSection" class="bg-white p-4 rounded shadow">
+        <!-- Первый блок. ID убран с формы и перемещен на строку выше id="callFormSection" -->
+        <div class="mb-4">
+            <h3 class="mb-4">Замовте дзвінок</h3>
+            <form id="contactForm">
+                <div class="mb-3">
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Ваше ім'я" required>
+                </div>
+                <div class="mb-3">
+                    <input type="tel" id="phone" name="phone" class="form-control" placeholder="Ваш телефон" required>
+                    <div class="invalid-feedback">Будь ласка, введіть коректний номер телефону</div>
+                    <input type="hidden" id="full_phone" name="full_phone">
+                </div>
+                <!-- Поле для вибору дати та часу -->
+<div class="row">
+    <div class="col-md-6 mb-3">
+        <label for="date" class="form-label">Дата дзвінка:</label>
+        <input type="text" id="date" name="date" class="form-control" placeholder="Оберіть дату" required autocomplete="off">
+    </div>
+    <div class="col-md-6 mb-3">
+        <label for="time" class="form-label">Час дзвінка:</label>
+        <input type="text" id="time" name="time" class="form-control" placeholder="Оберіть час" required autocomplete="off">
+    </div>
+</div>
+
+                <button type="submit" class="btn btn-accent w-100">Замовити дзвінок</button>
+            </form>
+        </div>
+        
+        <!-- Разделитель -->
+        <div class="d-flex align-items-center mb-4">
+            <hr class="flex-grow-1">
+            <span class="px-3 text-muted">або</span>
+            <hr class="flex-grow-1">
+        </div>
+        
+        <!-- Второй блок - контакты -->
+        <div>
+            <h3 class="mb-4">Зв'яжіться з нами напряму</h3>
+            <div class="d-flex align-items-center mb-3">
+                <i class="bi bi-telephone fs-4 me-3 text-accent"></i>
+                <div>
+                    <div class="fw-bold">Телефон</div>
+                    <a href="tel:+380992587484" class="text-decoration-none">+380 (99) 258 74 84</a>
+                </div>
+            </div>
+            <div class="d-flex align-items-center mb-3">
+                <i class="bi bi-envelope fs-4 me-3 text-accent"></i>
+                <div>
+                    <div class="fw-bold">Email</div>
+                    <a href="mailto:ninarkotikam@ukr.net" class="text-decoration-none">ninarkotikam@ukr.net</a>
+                </div>
+            </div>
+            <div class="d-flex align-items-center">
+                <i class="bi bi-clock fs-4 me-3 text-accent"></i>
+                <div>
+                    <div class="fw-bold">Години роботи</div>
+                    <div>Пн-ВС: 8:00 - 21:00</div>
+                </div>
+            </div>
+        </div>
+        <!-- Второй разделитель -->
+<div class="d-flex align-items-center mb-4">
+    <hr class="flex-grow-1">
+    <span class="px-3 text-muted">або</span>
+    <hr class="flex-grow-1">
+</div>
+
+<!-- Третий блок - Telegram -->
+<div>
+    <h3 class="mb-4">Залиште заявку в Telegram</h3>
+    <a href="https://t.me/Sozalezjnist_bot?start=w41687551" 
+       class="btn btn-telegram w-100">
+        <i class="bi bi-telegram me-2"></i>
+        Записатись на консультацію
+    </a>
+</div>
+    </div>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- КНОПКА ЗВОНКа -->
+<a href="#callFormSection" id="floatingCallBtn" class="d-none">
+  <div class="position-fixed bottom-0 end-0 mb-5 me-5 animate-pulse2" style="z-index: 1000">
+    <div class="vidualsatun">
+      <div class="campakesad">
+        <div class="vebusines"></div>
+        <div class="nigkugas">
+          <i class="fas fa-phone"></i>
+        </div>
+        <div class="dsacin">Замовити дзвінок</div>
+      </div>
+    </div>
+  </div>
+</a>
+
+   <!-- История успеха -->
+<section id="success" class="success-story">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <div class="story-content">
+                    <h2 class="section-title mb-4">Щаслива історія однієї мами</h2>
+                    
+                    <p class="story-text">
+                        «Вітаю! Мене звати Марина і я мама.<br>Раніше я думала, що це саме по собі вже означає бути щасливою.<br>Але все змінилось, коли мій син Віталій почав зникати з мого життя – поступово, мов тінь, яка щодня ставала все темнішою.
+                    </p>
+                    
+                    <h5 class="story-bold-title">Як було:</h5>
+                    
+                    <p class="story-text">
+                        Він перестав приходити додому. Очі – порожні, як скло.<br>Погляд – холодний.<br>Брехня стала мовою, якою він зі мною говорив.<br>У квартирі – крики, ночі без сну, запах ліків.<br>Я боялась кожного дзвінка.<br>Життя перетворилось на очікування катастрофи.<br><br>Я втратила сина. Але він ще дихав. І я не могла просто дивитись, як він гасне.
+                    </p>
+                    
+                    <h5 class="story-bold-title">Як стало:</h5>
+                    
+                    <p class="story-text">
+                        Сьогодні мій син Віталій – Випускник Центру «Джерело».<br>Я дивлюсь йому в очі і там знову мій син. Живий. Справжній.<br>У нього є мрії. Він говорить про майбутнє. Він дякує мені і я знову мама, а не тінь із тривогою.<br>Ми вчимося жити спочатку.»
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center">
+                <img src="img\mom.jpg" alt="Успішна історія" class="img-fluid rounded shadow mb-3" style="max-height: 400px; width: auto;">
+                <p class="fst-italic">"Я хочу сказати тим, хто ще бореться або боїться зробити перший крок:<br>Не чекайте дна. Шанс є і він починається з дії.<br>Мій син повернувся з темряви і ваша дитина теж зможе!"</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Этапы работы -->
+    <section id="process" class="section">
+        <div class="container">
+            <h2 class="section-title">Перший крок ми зробимо вже на консультації зі мною</h2>
+            <p class="text-start mb-2">Я розумію, наскільки це непросто і як страшно чекати, коли все саме «якось налагодиться».<br>Кожен день без рішення - це ще одна крадіжка, ще один скандал, ще один ризик незворотних наслідків.<br>Без чітких кроків ситуація тільки погіршуватиметься, а ви будете втрачати гроші, сили, здоров’я і,  майбутнє своєї дитини.</p>
+            <p class="text-start mb-2">Всього за одну годину ви отримаєте <strong>чіткий план розмови та дій</strong>, який зможете застосувати вже сьогодні - щоб прийти до головного - спокою за майбутнє дитини, гордості за її досягнення та впевненості у завтрашньому дні.</p>
+            <ul class="list-unstyled mb-3">
+            <li class="mb-2">
+                <i class="bi bi-heartbreak text-danger me-2"></i>
+                Навіть якщо вам здається, що ваша ситуація безнадійна
+            </li>
+            <li class="mb-2">
+        <i class="bi bi-heartbreak text-danger me-2"></i>
+        Навіть якщо ви вже зверталися кудись і це не дало результатів
+            </li>
+            <li class="mb-2">
+        <i class="bi bi-heartbreak text-danger me-2"></i>
+        Навіть якщо ви втратили віру в успіх
+            </li>
+            </ul>
+            <p class="text-start mb-2"> Знайте, об’єднавши ваші та мої зусилля, разом, ми переможемо і впораємося з будь-яким викликом. Бо в мене є величезний успішний досвід, а у вас немає іншого вибору, окрім як боротися за життя своєї дитини (скільки б їй не було років).</p>
+            <p class="text-start mb-2"><strong>Запрошую вас на індивідуальну консультацію,  де ми разом розірвемо замкнене коло тривоги, провини та нескінченної самопожертви.</strong></p>
+            <div class="text-start mb-2">
+    <p>
+        <i class="bi bi-geo-alt-fill text-primary me-1"></i>
+        Ця сесія - для тих, хто втомився жити в страху, почутті провини та під тиском маніпуляцій залежної дорослої дитини (сина чи доньки).
+    </p>
+</div>
+
+<p class="mb-2">Якщо ви вже не відчуваєте, де закінчуєтесь ви, а де починаються чужі очікування та вимоги…</p>
+<p class="mb-2">Якщо розумієте, що любити і рятувати - це не одне й те саме…</p>
+
+<p class="mb-4">
+    <i class="bi bi-arrow-right-circle-fill text-accent me-3"></i>
+    Значить, ця консультація для вас.
+</p>
+
+<h4 class="mb-3">
+    <i class="bi bi-bullseye text-danger me-2"></i>
+    За одну зустріч ви:
+</h4>
+<ul class="fat-dot-list mb-3">
+    <li class="mb-2">Знімете внутрішній тиск «без мене все розвалиться»</li>
+    <li class="mb-2">Знайдете опору в собі замість паралізуючого страху</li>
+    <li class="mb-2">Зрозумієте, що робити у вашій ситуації, не втрачаючи себе</li>
+    <li class="mb-2">Отримаєте чіткий алгоритм дій на випадок прохань, маніпуляцій і обіцянок</li>
+    <li class="mb-2">Почнете повертати себе, як жінку, якій потрібні життя, спокій та щастя</li>
+</ul>
+
+<h4 class="mb-3">
+    <i class="bi bi-trophy-fill text-warning me-2"></i>
+    Мій авторський підхід включає:
+</h4>
+<ul class="fat-dot-list mb-3">
+    <li class="mb-2">Виявлення патернів співзалежності та принцип «Жорстка любов»</li>
+    <li class="mb-2">Нейрокоучингову техніку «Нейромозаїка»</li>
+    <li class="mb-2">Зрозумієте, що робити у вашій ситуації, не втрачаючи себе</li>
+</ul>
+
+<h4 class="mb-3">
+    <i class="bi bi-compass text-info me-2"></i>
+    3 кроки на консультації:
+</h4>
+<ol class="custom-numbered-list mb-3">
+    <li class="mb-2"><strong>Страх, що паралізує</strong> - проговоримо найважчі думки і знизимо рівень тривоги вже під час сесії.</li>
+    <li class="mb-2"><strong>Повернення до себе</strong> - розберемо, як ви втратили зв'язок із собою, і повернемо контакт зі своїми бажаннями.</li>
+    <li class="mb-2"><strong>Алгоритм виходу</strong> - зформуємо чіткий план дій, який дасть вам ясність і внутрішню твердість.</li>
+</ol>
+<p class="mb-2">
+    <i class="bi bi-pin-angle-fill text-primary me-2"></i>
+    Як тільки ви ставите себе на перше місце - змінюється весь сценарій, а отже, і людина, яка звикла маніпулювати, змушена змінюватися теж.
+</p>
+
+<div class="bg-light p-4 rounded mb-3">
+    <h4 class="mb-2">
+        <i class="bi bi-cash-coin text-success me-2"></i>
+        Консультація - безкоштовна
+    </h5>
+</div>
+
+<div class="alert alert-info mt-3">
+    <h5 class="mb-3">
+        <i class="bi bi-gift-fill text-info me-2"></i>
+        Одночасно з записом ви отримаєте подарунок:
+    </h5>
+    
+    <ul class="list-unstyled mb-4">
+        <li class="mb-3">
+            <i class="bi bi-file-earmark-text text-primary me-2"></i>
+            <strong>Гайд «Як подолати страх»</strong>
+        </li>
+    </ul>
+</div>
+
+<div class="alert alert-warning mb-5">
+    <p class="mb-0">
+        <i class="bi bi-calendar-exclamation text-warning me-2"></i>
+        <strong>Кількість місць обмежена.</strong> Дійте зараз, поки доступність гарантована.
+    </p>
+</div>
+
+    <!-- Отзывы -->
+    <section id="testimonials" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Відгуки клієнтів</h2>
+            
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="testimonial-card">
+                                    <div class="text-center">
+                                        <img src="img\V1.jpg" alt="Клієнт" class="testimonial-img">
+                                        <h5>Віктория, учасниця трененгу Павла Казарʼяна</h5>
+                                        <div class="text-warning mb-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                    </div>
+                                    <p class="text-center">"Меня зовут Виктория. Увлекаюсь изучением НЛП. Прошла тренинг у Павла Казарьяна. Проходила различные тренинги и раньше, но этот изменил всю мою жизнь. После тренинга открыла своё дело Очень благодарна Павлу. Жду следующего тренинга."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="testimonial-card">
+                                    <div class="text-center">
+                                        <img src="img\V2.jpg" alt="Клієнт" class="testimonial-img">
+                                        <h5>Олена, мати наркозалежного</h5>
+                                        <div class="text-warning mb-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                    </div>
+                                    <p class="text-center">"Раньше я существовала, жила от срыва к срыву. Спасибо Центру и Школе за то, что изменилось моё отношение к жизни. Я радуюсь жизни, получаю новые интересные знания, смело говорю о своих чувствах, наладились отношения в семье и на работе. Верю, что у меня, у моего сына, у моей семьи ЕСТЬ БУДУЩЕЕ, которое зависит только от нас, каким ему быть."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="testimonial-card">
+                                    <div class="text-center">
+                                        <img src="img\V3.jpg" alt="Клієнт" class="testimonial-img">
+                                        <h5>Євгеній, колишній наркозалежний</h5>
+                                        <div class="text-warning mb-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                    </div>
+                                    <p class="text-center">"Щиро дякую Павлу за професійну допомогу у подоланні моєї наркотичної залежності та вирішенні інших психологічних труднощів. Його підхід був структурованим, а рекомендації - дієвими, що дозволило мені зрозуміти причини моїх проблем і знайти шлях до змін. Окремо ціную те, що Павло не просто допоміг мені позбутися залежності, а й навчив важливим принципам психології, НЛП та роботи з залежностями. Ці знання стали для мене безцінними і допомагають у повсякденному житті та професійний діяльності. Рекомендую Павла як досвідченого фахівця і наставника, який дійсно працює на результат!"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- О психологе -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Хто я?</h2>
+            <div class="row align-items-start">
+                <div class="col-lg-6">
+                    <p>Моє ім’я - Павло Казар'ян, я дипломований психолог-психотерапевт, маю дві вищі освіти та аспірантуру за плечима, спеціаліст з клінічної псіхології, майстер НЛП, коуч та професійний поліграфолог, автор психологічних книг, тренінгів та курсів.</p>
+                    <p>Я власник кількох успішних бізнес-проєктів та благодійних напрямків, зокрема мережі реабілітаційних центрів «Джерело».</p>
+                    <p>Але так було не завжди: 23 роки тому в мене був досвід вживання наркотиків і я не знав, як вийти з безумства, у яке сам себе завів. Мені вдалося зібрати себе по шматках, а понад 18 років тому я розробив і запатентував програму, яка допомагає залежним ставати чесними та світлими людьми. Згодом, я створив програму роботи з батьками залежних.</p>
+                    <h5 class="mt-4">Тож, навіщо мені це потрібно?</h5>
+                    <ul>
+                        <li>Це моя місія та покликання - допомагати людям вийти з того болота, у якому колись був я.</li>
+                        <li>Я постійно працюю над собою та дослідним шляхом вдосконалюю свою програму.</li>
+                        <li>Хочу увійти в історію нашої країни як провідний професіонал у роботі з хімічно - залежними людьми та питаннями співзалежності. </li>
+                    </ul>
+                    
+                </div>
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="photo-container px-3 py-2">
+                    <img src="img\Pavel.jpeg" alt="Психолог" class="img-fluid rounded shadow">
+                    </div>
+                    <div class="photo-caption text-center">
+                        <p class="fst-italic">Життя не закінчується там, де стало боляче.<br>Зробіть свій вибір прямо зараз.</p>
+                        <p class="fst-italic">Кожній людіні потрібен шанс виправити помилки та повернутися до нормального жіття!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Секция Сертификаты -->
+<!-- Секция сертификатов -->
+<section id="certificates" class="section">
+  <div class="container">
+    <h2 class="section-title mb-4">Сертифікати та досягнення</h2>
+    
+    <div class="certificates-container">
+      <div class="certificates-scroller">
+        <!-- Добавьте все ваши сертификаты здесь -->
+        <!-- Все 19 сертификатов -->
+        <img src="img/2.jpg" alt="Сертифікат 1" class="certificate-img">
+        <img src="img/3.jpg" alt="Сертифікат 2" class="certificate-img">
+        <img src="img/5.jpg" alt="Сертифікат 4" class="certificate-img">
+        <img src="img/6.jpg" alt="Сертифікат 5" class="certificate-img">
+        <img src="img/7.jpg" alt="Сертифікат 6" class="certificate-img">
+        <img src="img/8.jpg" alt="Сертифікат 7" class="certificate-img">
+        <img src="img/9.jpg" alt="Сертифікат 8" class="certificate-img">
+        <img src="img/10.jpg" alt="Сертифікат 9" class="certificate-img">
+        <img src="img/11.jpg" alt="Сертифікат 10" class="certificate-img">
+        <img src="img/12.jpg" alt="Сертифікат 11" class="certificate-img">
+        <img src="img/13.jpg" alt="Сертифікат 12" class="certificate-img">
+        <img src="img/14.jpg" alt="Сертифікат 13" class="certificate-img">
+        <img src="img/15.jpg" alt="Сертифікат 14" class="certificate-img">
+        <img src="img/16.jpg" alt="Сертифікат 15" class="certificate-img">
+        <img src="img/17.jpg" alt="Сертифікат 16" class="certificate-img">
+        <img src="img/18.jpg" alt="Сертифікат 17" class="certificate-img">
+        <img src="img/19.jpg" alt="Сертифікат 18" class="certificate-img">
+        <img src="img/20.jpg" alt="Сертифікат 19" class="certificate-img">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- МОДАЛьное окно -->
+<div class="modal fade" id="certificateModal" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen-md-down">
+    <div class="modal-content border-0 bg-transparent">
+      <div class="modal-body d-flex align-items-center justify-content-center p-0 vh-100 position-relative">
+        <img id="modalCertificateImg" src="" alt="" class="h-auto mw-100" style="max-height: 90vh;">
+        
+        <!-- Кнопки навигации -->
+        <button class="btn btn-secondary position-absolute start-0 top-50 translate-middle-y ms-3" id="prevCert">
+          <i class="bi bi-chevron-left"></i>
+        </button>
+        <button class="btn btn-secondary position-absolute end-0 top-50 translate-middle-y me-3" id="nextCert">
+          <i class="bi bi-chevron-right"></i>
+        </button>
+      </div>
+      <button type="button" class="btn-close position-absolute top-0 end-0 m-3 bg-white" data-bs-dismiss="modal"></button>
+    </div>
+  </div>
+</div>
+
+    <!-- Футер -->
+<footer id="contacts" class="bg-dark text-white py-4">
+    <div class="container">
+        <div class="row">
+            <!-- Первая колонка - Текст -->
+            <div class="col-lg-6 mb-4">
+                <h4 class="h2 mb-3">Контакти</h4>
+                <p class="fs-5 mb-4">
+                    Якщо у вас є будь-які запитання - не соромтеся, мої помічники завжди на зв'язку 
+                    та дадуть відповіді на всі ваші питання, а також за потреби зв'яжуть вас зі мною.
+                </p>
+            </div>
+            
+            <!-- Вторая колонка - Контакты и соцсети -->
+            <div class="col-lg-6">
+                <div class="row">
+                    <!-- Контакты -->
+                    <div class="col-md-6 mb-3 mb-md-0">
+                        <h5 class="h5 mb-3">Зв'язок</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <i class="bi bi-telephone me-2"></i>
+                                <a href="tel:+380992587484" class="text-white text-decoration-none">+380 (99) 258 74 84</a>
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-envelope me-2"></i>
+                                <a href="mailto:ninarkotikam@ukr.net" class="text-white text-decoration-none">ninarkotikam@ukr.net</a>
+                            </li>
+                            <!-- <li class="mb-3">
+                                <i class="bi bi-geo-alt me-2"></i>
+                                м. Київ, вул. Психологічна, 15
+                            </li> -->
+                        </ul>
+                    </div>
+                    
+                    <!-- Соцсети -->
+                    <div class="col-md-6">
+                        <h5 class="h5 mb-3">Соцмережі</h5>
+                        <div class="d-flex gap-3 mb-3">
+                            <a href="https://www.facebook.com/profile.php?id=61578819776096" class="social-icon text-white fs-4"><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/djerelo.help/" class="social-icon text-white fs-4"><i class="bi bi-instagram"></i></a>
+                            <a href="https://t.me/ninarkotikam_bot" class="social-icon text-white fs-4"><i class="bi bi-telegram"></i></a>
+                            <a href="https://www.youtube.com/@psiholog_pavlokazarian" class="social-icon text-white fs-4"><i class="bi bi-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Кнопка телеграм -->
+                <a href="https://t.me/Sozalezjnist_bot?start=w41687551" class="btn btn-telegram mt-3">
+                    <i class="bi bi-telegram me-2"></i>
+                    Записатись на консультацію
+                </a>
+            </div>
+        </div>
+        
+        <hr class="my-4">
+        
+        <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+                <p class="mb-0 small">&copy; 2025 Павло Казар'ян. Всі права захищені.</p>
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+                <a href="pubinfo.html" class="text-white-50 me-3 small">Політика конфіденційності</a>
+                <a href="oferta.html" class="text-white-50 small">Договір публічної оферти</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- скрипты -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/uk.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.9/js/intlTelInput.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script
+        type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>
